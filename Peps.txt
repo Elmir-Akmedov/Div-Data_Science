@@ -1,0 +1,124 @@
+1. The Zen of Python (PEP 20)
+Abbreviation: TZP
+
+Explanation: A collection of guiding principles for writing computer programs in Python. These principles emphasize simplicity, readability, and clarity in Python code. The Zen of Python is accessed using import this in Python.
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than right now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+
+2. DRY Principle
+Abbreviation: DRY (Don't Repeat Yourself)
+
+Explanation: A software development principle aimed at reducing code repetition. If a piece of code is repeated, it's better to encapsulate it in a function, class, or module.
+
+
+3. KISS Principle
+Abbreviation: KISS (Keep It Simple, Stupid)
+
+Explanation: Advocates for simplicity in code design. Overly complex solutions are discouraged in favor of simple, understandable, and maintainable approaches.
+
+
+4. YAGNI Principle
+Abbreviation: YAGNI (You Aren't Gonna Need It)
+
+Explanation: Encourages programmers to only implement features or functionality when they are required, not based on assumptions of future need.
+
+
+5. SOLID Principles
+Abbreviation: SOLID
+
+Explanation: A set of object-oriented design principles to make software more maintainable and scalable.
+S: Single Responsibility Principle (SRP) – A class should have only one reason to change.
+O: Open/Closed Principle (OCP) – Classes should be open for extension but closed for modification.
+L: Liskov Substitution Principle (LSP) – Subtypes must be substitutable for their base types.
+I: Interface Segregation Principle (ISP) – Avoid forcing classes to implement interfaces they don't use.
+D: Dependency Inversion Principle (DIP) – Depend on abstractions rather than concrete implementations.
+
+
+6. Law of Demeter
+Abbreviation: LOD (or LoD)
+
+Explanation: Also known as the "principle of least knowledge," this principle states that an object should only communicate with its immediate collaborators and not deeply nested objects.
+
+
+7. EAFP Paradigm
+Abbreviation: EAFP (Easier to Ask Forgiveness than Permission)
+
+Explanation: In Python, it's common to assume the existence of valid states and handle exceptions if things go wrong, rather than pre-checking conditions.
+
+
+8. LBYL Paradigm
+Abbreviation: LBYL (Look Before You Leap)
+
+Explanation: Opposite of EAFP, this paradigm involves checking conditions or prerequisites before performing an action.
+
+
+9. TOOWTDI Principle
+Abbreviation: TOOWTDI (There’s Only One Way To Do It)
+
+Explanation: Part of the Zen of Python, this principle emphasizes having a single, clear way of performing tasks, reducing confusion and improving code consistency.
+
+
+10. Duck Typing
+Abbreviation: None
+
+Explanation: A concept in Python where the type or class of an object is determined by its behavior (methods and properties) rather than its explicit inheritance or type declaration. "If it looks like a duck and quacks like a duck, it’s a duck."
+
+
+11. Pythonic Principle
+Abbreviation: None
+
+Explanation: A term that refers to idiomatic Python code that adheres to Python’s philosophy of simplicity, readability, and elegance.
+
+
+12. Pragmatism in Python
+Abbreviation: None
+
+Explanation: Python favors practicality over rigid adherence to theoretical purity, as outlined in the Zen of Python.
+
+
+13. PEP Guidelines
+Abbreviation: PEP (Python Enhancement Proposals)
+
+Explanation: Documents that describe standards and best practices in Python. Notable PEPs include:
+PEP 8: Python's style guide.
+PEP 20: The Zen of Python.
+PEP 257: Docstring conventions.
+
+
+14. Principle of Immutability
+Abbreviation: None
+
+Explanation: Python encourages the use of immutable data structures (like tuples and frozensets) for maintaining state integrity and avoiding accidental modifications.
+15. Avoid Premature Optimization
+Abbreviation: None
+
+Explanation: Focuses on writing clear and correct code first and optimizing performance only when necessary.
+16. Favor Composition Over Inheritance
+Abbreviation: None
+
+Explanation: Encourages using composition (having objects contain other objects) instead of inheritance to achieve better code modularity and reduce complexity.
+
+
+17. Explicit is Better Than Implicit
+Abbreviation: EIBTI
+
+Explanation: From the Zen of Python, this principle stresses clear and unambiguous coding practices.
