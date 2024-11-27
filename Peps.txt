@@ -108,10 +108,14 @@ PEP 257: Docstring conventions.
 Abbreviation: None
 
 Explanation: Python encourages the use of immutable data structures (like tuples and frozensets) for maintaining state integrity and avoiding accidental modifications.
+
+
 15. Avoid Premature Optimization
 Abbreviation: None
 
 Explanation: Focuses on writing clear and correct code first and optimizing performance only when necessary.
+
+
 16. Favor Composition Over Inheritance
 Abbreviation: None
 
