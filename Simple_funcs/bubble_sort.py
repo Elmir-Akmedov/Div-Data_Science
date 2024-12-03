@@ -17,5 +17,8 @@ def bubble_sort_2(lst):
 
 my_list = [1, 2, 10, 3, 7, 5, 6, 5, 8, 9, 8, 9, 15, 10]
 
-print(bubble_sort_1(my_list))
-print(bubble_sort_2(my_list))
+# print(bubble_sort_1(my_list))
+# print(bubble_sort_2(my_list))
+
+max_num = float("-inf")
+print(type(max_num))
