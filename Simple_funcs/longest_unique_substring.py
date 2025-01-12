@@ -10,8 +10,9 @@ def longest_unique_substring_1(word):
                     substr_end = j
     return len(word[substr_start:substr_end])
 
-
+[]
 def longest_unique_substring_2(word):
+    
     start = 0
     max_length = 0
     substring = set()
